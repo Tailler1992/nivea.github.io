@@ -23,4 +23,4 @@ gulp build
 ```
 
 ## GitHub Pages:
--
+https://tailler1992.github.io/nivea.github.io/dist/index.html
