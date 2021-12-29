@@ -1,0 +1,43 @@
+@import "_normalize.scss";
+@import "_nullstile";
+@import "_fonts";
+
+/* common styles ---------------------------------- */
+.container {
+    max-width: 1074px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+html {
+    font-family:"NIVEA-Regular", "Open Sans", sans-serif;
+
+}
+h1, h2, h3{
+    font-family:"NIVEA-Bold", "Open Sans", sans-serif;
+}
+
+body {
+    background-color: #FFFFFF;
+    color: rgba(0, 50, 160, 1);
+}
+
+//КОМПОНЕНТЫ БЛОКОВ
+@import "../components/btn/btn";
+@import "../components/btn/_theme/btn_theme-white";
+@import "../components/advantage/advantage";
+@import "../components/products-card/products-card";
+
+//БЛОКИ СТРАНИЦЫ
+@import "../components/header/header";
+@import "../components/breadcrumb/breadcrumb";
+@import "../components/submenu/submenu";
+@import "../components/hero/hero";
+@import "../components/cream/cream";
+@import "../components/gel/gel";
+@import "../components/result/result";
+@import "../components/products/products";
+@import "../components/share/share";
+@import "../components/footer/footer";

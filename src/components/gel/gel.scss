@@ -1,0 +1,74 @@
+.gel {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        padding-bottom: 31px;
+        max-width: 898px;
+    }
+    &__title {
+        margin-bottom: 55px;
+        max-width: 450px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    &__list {
+        align-self: stretch;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 73px;
+    }
+    &__item {
+        max-width: 405px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
+    &__shell {
+        position: relative;
+        min-height: 200px;
+        width: 100%;
+        background: linear-gradient(180deg, #82d4ff 0%, #d6f0ff 100%);
+    }
+    &__img {
+        display: block;
+        position: absolute;
+        margin: auto;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+    &__text {
+        padding-top: 74px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    &__sub-title {
+        margin-bottom: 24px;
+        max-width: 700px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 29px;
+        text-transform: uppercase;
+    }
+    &__description {
+        max-width: 700px;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+    }
+
+    &__btn {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}

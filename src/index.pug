@@ -1,0 +1,26 @@
+//Миксины
+include components/advantage/advantage
+include components/btn/btn
+include components/products-card/products-card
+
+doctype html
+html(lang="ru")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible" content="IE=edge")
+        meta(name="viewport" content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet" href="css/style.css")
+    body
+        include components/header/header
+        include components/breadcrumb/breadcrumb
+        include components/submenu/submenu
+
+        main.main
+            include components/hero/hero
+            include components/cream/cream
+            include components/gel/gel
+            include components/result/result
+            include components/products/products
+            include components/share/share
+            include components/footer/footer

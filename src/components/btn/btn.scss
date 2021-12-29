@@ -1,0 +1,21 @@
+.btn {
+    display: inline-block;
+    padding: 20px 40px;
+    font-size: 16px;
+    line-height: 1;
+    font-family: "NIVEA-Bold", "Open Sans", sans-serif;
+    text-transform: uppercase;
+    color: white;
+    background-color: #0032A0;
+    border-radius: 100px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.btn:active {
+    background-color: #d6dcec;
+}

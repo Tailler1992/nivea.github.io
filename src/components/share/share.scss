@@ -1,0 +1,54 @@
+.share {
+    &__container {
+        padding-top: 50px;
+        padding-bottom: 50px;
+        text-align: center;
+    }
+    &__title {
+        margin-bottom: 12px;
+        font-size: 32px;
+        line-height: 38px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    &__social {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 16px;
+    }
+
+    &__item {
+        border-radius: 30px;
+        width: 50px;
+        height: 50px;
+
+        &:hover {
+            opacity: 0.8;
+        }
+
+        &:active {
+            opacity: 0.5;
+        }
+        &-vk {
+            margin-right: 20px;
+            background: url("../img/icon/vk.svg") no-repeat center center #5b7fa0;
+        }
+        &-fb {
+            background: url("../img/icon/fb.svg") no-repeat center center #34448a;
+        }
+    }
+    &__info {
+        font-size: 11px;
+        line-height: 22px;
+        &::before{
+            content: "";
+            display: inline-block;
+            margin-right: 6px;
+            position: relative;
+            top: 7px;
+            width: 18px;
+            height: 20px;
+            background:  url("../img/icon/latch.svg") no-repeat;
+        }
+    }
+}

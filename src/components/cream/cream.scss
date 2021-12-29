@@ -1,0 +1,77 @@
+.cream {
+    &__container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 73px;
+        padding-bottom: 9px;
+        max-width: 898px;
+    }
+    &__title {
+        margin-bottom: 45px;
+        max-width: 593px;
+        text-align: center;
+        font-size: 32px;
+        font-weight: 800;
+        text-transform: uppercase;
+    }
+    &__list {
+        align-self: stretch;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 74px;
+    }
+    &__item {
+        max-width: 405px;
+        width: 100%;
+    }
+    &__item:not(:last-child) {
+        margin-right: 30px;
+    }
+    &__text {
+        padding-top: 73px;
+        font-size: 18px;
+        line-height: 26px;
+    }
+    &__shell {
+        position: relative;
+        min-height: 250px;
+        width: 100%;
+        background: linear-gradient(180deg, #e61c8a 0%, #ffbfe1 100%);
+    }
+    &__img {
+        display: block;
+        position: absolute;
+        margin: auto;
+        left: 21px;
+        bottom: -35px;
+        right: 0;
+    }
+
+    &__sub-title {
+        margin-bottom: 24px;
+        max-width: 697px;
+        font-weight: 800;
+        font-size: 24px;
+        line-height: 29px;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    &__description {
+        margin-bottom: 23px;
+        max-width: 700px;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+    }
+    &__img-bottom {
+        display: block;
+        margin-bottom: 20px;
+    }
+
+    &__btn {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+}

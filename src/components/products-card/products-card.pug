@@ -1,0 +1,14 @@
+include products-card-content
+
+mixin products-card(title, src, alt)
+
+    .products-card
+        .products-card__block
+            img.products-card__img(src= src alt= alt)
+        h3.products-card__title!= title
+        .products-card__line
+            include ozon.svg
+            include wildberries.svg
+        .products-card__btns
+            +btn("#", "Купить")(class="btn_theme-white products-card__btn")
+            +btn("#", "Купить")(class="btn_theme-white")

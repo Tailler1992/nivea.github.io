@@ -1,0 +1,8 @@
+include advantage-content
+
+mixin advantage(title, content)
+    .advantage
+            h2.advantage__title= title
+            ul.advantage__list
+                each text in content
+                    li.advantage__item= text

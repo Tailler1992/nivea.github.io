@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "NIVEA-Regular";
+    font-style: normal;
+    font-weight: normal;
+    src: local(""), url("../fonts/nivea/NIVEABrandTypeWeb-Regular.woff") format("woff"),
+        url("../fonts/nivea/NIVEABrandTypeWeb-Regular.woff2") format("woff2");
+}
+
+@font-face {
+    font-family: "NIVEA-Bold";
+    font-style: normal;
+    font-weight: 700;
+    src: local(""), url("../fonts/nivea/NIVEABrandTypeWeb-Bold.woff") format("woff"),
+        url("../fonts/nivea/NIVEABrandTypeWeb-Bold.woff2") format("woff2");
+}

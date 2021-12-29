@@ -1,0 +1,13 @@
+.products {
+    background-color: #f7f8fa;
+    padding-bottom: 8px;
+    &__container {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 50px;
+        column-gap: 72px;
+        padding-top: 60px;
+        padding-bottom: 60px;
+        max-width: 1036px;
+    }
+}
